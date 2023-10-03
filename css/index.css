@@ -1,0 +1,88 @@
+/* TIPOGRAFIA - IMPORTADA DESDE: https://fonts.google.com/ */
+/* REFERENCIADA DESDE: MANUAL DE MARCA GLOBALMENTE PRESENTACION 18 */
+
+/* TIPOGRAFIA: DM SANS -> SUBTITULOS Y PARRAFOS - 16PX ESTANDAR */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+/* TIPOGRAFIA: DM SERIF DISPLAY -> TITULOS Y ENCABEZADOS - 86PX ESTANDAR */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+h1,
+h2 {
+    font-family: 'DM Serif Display', serif;
+}
+
+h3,
+p,
+a,
+li {
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* CONFIGURACION INICIAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* --- --- --- SUBHEADER INFORMACION UBICACION --- --- --- */
+.informacion_ubicacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #D378FE;
+}
+
+.informacion_ubicacion div {
+    height: 15vh;
+    width: 15vw;
+}
+
+.main_logo_informacion_ubicacion {
+    height: 25vh;
+    width: 20vw;
+}
+
+#whatsapp {
+    color: #A6F7F1;
+}
+
+#whatsapp:hover {
+    color: #FF9E7B;
+}
+
+/* --- --- BARRA DE NAVEGACIÓN --- --- --- */
+header{
+    height: 10vh;
+    background-color: #52005d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%; /* RELATIVO RESPECTO AAL CONTENEDOR HEADER */
+}
+
+nav a {
+    color: #A6F7F1;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FF9E7B;
+}
