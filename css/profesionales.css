@@ -1,0 +1,28 @@
+.profesionales_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D378FE;
+}
+
+.profesionales {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7vw;
+    width: 90%;
+    height: 50%;
+}
+
+.profesionales_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15vh;
+}
+
+.profesionales img {
+    height: 45vh;
+    width: 25vw;
+    border-radius: 5%;
+}
