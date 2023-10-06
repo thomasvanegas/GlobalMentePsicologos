@@ -1,0 +1,30 @@
+/* Estilos para el contenedor principal */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #52005d;
+    padding: 20px;
+}
+
+/* Estilos para el primer elemento */
+.flex-item:nth-child(1) {
+    background-color: #D378FE;
+    padding: 50px;
+    border: 1px solid black;
+    flex: 50px;
+}
+
+/* Estilos para el segundo elemento (video) */
+.flex-item:nth-child(2) {
+    background-color: #D378FE;
+    padding: 50px;
+    border: 1px solid black;
+    flex: 50px;
+}
+
+
+
+/* Estilos para los encabezados h1 y h2 */
+h1, h2 {
+    color: #333;
+}
