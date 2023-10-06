@@ -1,0 +1,26 @@
+.solicitar_cita {
+    background-color: #52005d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh;
+}
+
+.solicitar_cita h1 {
+    color: white;
+}
+
+.solicitar_cita a {
+    color: #52005d;
+    text-align: center;
+    font-size: x-large;
+    height: 5vh;
+    width: 20vw;
+    background-color: #D378FE;
+    border-radius: 50%;
+}
+
+.solicitar_cita a:hover {
+    background-color: #A6F7F1;
+}

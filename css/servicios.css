@@ -1,0 +1,53 @@
+.servicios h1 {
+    color: white;
+    font-size: xx-large;
+}
+
+.servicios h2 {
+    color: #D378FE;
+    font-size: xx-large;
+}
+
+.servicios p {
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+.servicios {
+    background-color: #52005d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.servicios_item img {
+    height: 7vh;
+    width: 4vw;
+}
+
+.servicios_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5vw;
+    width: 80%;
+}
+
+.servicios_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 22vh;
+    border: 0.3vw white solid;
+    border-radius: 10%;
+    padding: 2vh;
+}
+
+.servicios_item:hover {
+    cursor: pointer;
+    border-color: #A6F7F1;
+}

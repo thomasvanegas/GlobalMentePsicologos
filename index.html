@@ -21,6 +21,13 @@
     <link rel="stylesheet" href="./css/profesionales.css">
     <link rel="stylesheet" href="./css/scrollbar.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/servicios.css">
+    <link rel="stylesheet" href="./css/slogan.css">
+    <link rel="stylesheet" href="./css/solicitar_cita.css">
+    <link rel="stylesheet" href="./css/whatsapp.css">
+
+    <!-- IMPORTACIÓN BOOTSTRAP PARA BOTÓN DE WHATSAPP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -58,7 +65,8 @@
             <h3>
                 Central de Citas
             </h3>
-            <a href="tel:+57 3227760588" id="whatsapp">WhatsApp: +57 3227760588</a>
+            <a href="https://wa.me/573227760588?text=Hola%20quiero%20solicitar%20una%20cita%20psicológica%20con%20GlobalMente" 
+            id="whatsapp">WhatsApp: +57 3227760588</a>
         </div>
 
     </div>
@@ -66,7 +74,7 @@
     <header>
         <nav class="nav_bar">
                 <a href="#inicio" class="nav_bar_item">Inicio</a>
-                <a href="#quienes_somos" class="nav_bar_item">¿Quiénes Somos?</a>
+                <a href="./templates/quienes_somos.html" class="nav_bar_item">¿Quiénes Somos?</a>
                 <a href="#cultura" class="nav_bar_item">Cultura</a>
                 <a href="#servicios" class="nav_bar_item">Servicios</a>
                 <a href="#profesionales" class="nav_bar_item">Profesionales</a>
@@ -75,6 +83,108 @@
                 <a href="#contacto" class="nav_bar_item">Contáctanos</a>
         </nav>
     </header>
+
+    <section class="slogan">
+
+        <h1>
+            Te ayudamos a encontrar el mejor psicólogo según tu situación actual
+        </h1>
+
+        <h3>
+            Conoce <a href="#servicios">nuestros servicios</a> y <a href="#">agenda tu cita</a>
+        </h3>
+
+    </section>
+
+    <section id="servicios" class="servicios">
+
+        <div>
+            <h1>
+                Servicios
+            </h1>
+        </div>
+
+        <div>
+            <h2>
+                En GlobalMente nos tomamos muy en serio nuestro trabajo
+            </h2>
+        </div>
+
+        <div>
+            <p>
+                Seleccionamos de manera minuciosa nuestros Psicólogos y estamos en constante
+                investigación y capacitación de manera individual y grupal.
+            </p>
+
+            <br />
+
+            <p>
+                Por esta razón, podemos ofrecerte <b>profesionales idóneos según las necesidades de tu
+                institución.</b>
+            </p>
+        </div>
+
+        <br /> 
+
+        <div class="servicios_container">
+
+            <div class="servicios_item">
+                <img src="./static/img/icons/psicologia_infantil_adolescente.png" alt="">
+                <p>Psicología infantil y del adolescente</p>
+            </div>
+
+            <div class="servicios_item">
+                <img src="./static/img/icons/psiquiatria.png" alt="">
+                <p>Psiquiatría</p>
+            </div>
+
+            <div class="servicios_item">
+                <img src="./static/img/icons/psicologia_clinica_salud.png" alt="">
+                <p>Psicología clínica y de la salud para adultos y personas mayores</p>
+            </div>
+
+            <div class="servicios_item">
+                <img src="./static/img/icons/neuropsicologia.png" alt="">
+                <p>Neuropsicológica</p>
+            </div>
+
+            <div class="servicios_item">
+                <img src="./static/img/icons/terapia_adicciones.png" alt="">
+                <p>Terapia para adicciones</p>
+            </div>
+
+            <div class="servicios_item">
+                <img src="./static/img/icons/psicologia_organizacional.png" alt="">
+                <p>Psicología organizacional</p>
+            </div>
+
+            <div class="servicios_item">
+                <img src="./static/img/icons/orientacion_profesional.png" alt="">
+                <p>Orientación profesional</p>
+            </div>
+
+            <div class="servicios_item">
+                <img src="./static/img/icons/terapia_pareja_familia.png" alt="">
+                <p>Terapia de pareja y familia</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="solicitar_cita">
+
+        <h1>
+            ¿Qué Esperas? Agenda Tu Cita con Nosotros
+        </h1>
+
+        <a href="https://wa.me/573227760588?text=Hola%20quiero%20solicitar%20una%20cita%20psicológica%20con%20GlobalMente" target="_blank">
+            Solicitar Cita
+        </a>
+
+    </section>
+
 
     <section id="profesionales" class="profesionales_container">
 
@@ -178,6 +288,14 @@
             Todos los Derechos Reservados a GlobalMente | Desarrollo Web por 
             <a href="https://github.com/thomasvanegas" target="_blank">Thomas Camilo Vanegas Acevedo</p></a>
     </footer>
+
+    <!-- BOTÓN DE WHATSAPP FLOTANTE -->
+    <a href="https://wa.me/573227760588?text=Hola%20quiero%20solicitar%20una%20cita%20psicológica%20con%20GlobalMente" 
+    class="whatsapp" target="_blank"> 
+
+    <!-- BOTÓN DE INSTAGRAM FLOTANTE -->
+
+    <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
     <!-- IMPORTANDO ARCHIVOS JAVASCRIPT -->
     <script src="./js/header.js"></script>

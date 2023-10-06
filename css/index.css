@@ -54,11 +54,12 @@ ul {
 }
 
 #whatsapp {
-    color: #A6F7F1;
+    color: white;
+    font-weight: bold;
 }
 
 #whatsapp:hover {
-    color: #FF9E7B;
+    color: #A6F7F1;
 }
 
 /* --- --- BARRA DE NAVEGACIÓN --- --- --- */
@@ -79,10 +80,10 @@ nav {
 }
 
 nav a {
-    color: #A6F7F1;
+    color: white;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #FF9E7B;
+    color: #A6F7F1;
 }
