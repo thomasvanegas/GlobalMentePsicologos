@@ -1,0 +1,31 @@
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+}
+
+.contacto_redes_sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30vw;
+    height: 40vh;
+}
+
+.contacto_redes_sociales img {
+    height: 5vh;
+    width: 3vw;
+}
+
+.contactanos_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 70vw;
+    height: 50vh;
+}

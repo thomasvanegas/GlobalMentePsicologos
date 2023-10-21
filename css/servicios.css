@@ -1,21 +1,15 @@
-.servicios h1 {
-    color: white;
-    font-size: xx-large;
-}
-
-.servicios h2 {
-    color: #D378FE;
+.servicios h1, h2 {
+    color: #52005d;
     font-size: xx-large;
 }
 
 .servicios p {
-    color: white;
+    color: black;
     font-size: medium;
     text-align: center;
 }
 
 .servicios {
-    background-color: #52005d;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -49,5 +43,5 @@
 
 .servicios_item:hover {
     cursor: pointer;
-    border-color: #A6F7F1;
+    border-color: #B242C1;
 }

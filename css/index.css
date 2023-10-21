@@ -40,7 +40,6 @@ ul {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #D378FE;
 }
 
 .informacion_ubicacion div {
@@ -54,36 +53,10 @@ ul {
 }
 
 #whatsapp {
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
 #whatsapp:hover {
-    color: #A6F7F1;
-}
-
-/* --- --- BARRA DE NAVEGACIÓN --- --- --- */
-header{
-    height: 10vh;
-    background-color: #52005d;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%; /* RELATIVO RESPECTO AAL CONTENEDOR HEADER */
-}
-
-nav a {
-    color: white;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #A6F7F1;
+    color: #52005d;
 }

@@ -1,15 +1,14 @@
 footer {
     height: 15vh;
-    background-color: #52005d;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #A6F7F1;
+    color: #52005d;
 }
 
 footer a {
-    color: #A6F7F1;
+    color: #52005d;
 }
 
 footer a:hover {

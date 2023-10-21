@@ -1,5 +1,4 @@
 .solicitar_cita {
-    background-color: #52005d;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -8,7 +7,7 @@
 }
 
 .solicitar_cita h1 {
-    color: white;
+    color: #52005d;
 }
 
 .solicitar_cita a {
@@ -22,5 +21,5 @@
 }
 
 .solicitar_cita a:hover {
-    background-color: #A6F7F1;
+    background-color: #B242C1;
 }

@@ -1,14 +1,41 @@
+/* DEFINICION DE LA ESTRUCTURA DEL SLOGAN/BANNER */
 .slogan {
-    background-color: #D378FE;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 85vh;
+}
+
+/* DEFINICION DE APARTADO IMAGEN DEL BANNER */
+.slogan_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan_img img{
+    border-left: 2vw white solid;
+    border-radius: 10%;
+    width: 55vw;
+    height: 60vh;
+    transform: perspective(90vw) rotateY(45deg);
+    -webkit-box-shadow: 0px 1px 43px -1px rgba(178,66,193,0.6);
+    -moz-box-shadow: 0px 1px 43px -1px rgba(178,66,193,0.6);
+    box-shadow: 0px 1px 43px -1px rgba(178,66,193,0.6);
+}
+
+/* DEFINICION DE APARTADO DESCRIPCION DEL BANNER */
+.slogan_descripcion {
+    border-right: 2vw white solid;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 20vh;
+    text-align: center;
 }
 
 .slogan h1, h3 {
-    color: white;
+    color: #52005d;
 }
 
 .slogan h1 {

@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #D378FE;
 }
 
 .profesionales {
@@ -25,4 +24,8 @@
     height: 45vh;
     width: 25vw;
     border-radius: 5%;
+}
+
+.profesionales ul, h3 {
+    text-align: center;
 }
