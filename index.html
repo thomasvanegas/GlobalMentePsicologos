@@ -28,19 +28,30 @@
     <link rel="stylesheet" href="./css/nav_bar.css">
     <link rel="stylesheet" href="./css/redes_sociales.css">
     <link rel="stylesheet" href="./css/contactanos.css">
+    <link rel="stylesheet" href="./css/banner.css">
 
     <!-- IMPORTACIÓN BOOTSTRAP PARA BOTÓN DE WHATSAPP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
-<body id="inicio">
+<body >
 
     <!-- ---  ---  BARRA DE NAVEGACIÓN ---  ---  ---  -->
+
+    <div class="informacion_ubicacion">
+
+        <a href="#inicio">
+            <img src="./static/img/web_use/main_logo.png" class="main_logo_informacion_ubicacion" alt="Logo Principal Globalmente Psicologos">
+        </a>
+
+        
+
+    </div>
     <header>
         <nav class="nav_bar">
-                <a href="#inicio"><img src="./static/img/Logos/PNG/Secundario/logo_secundario_tagline_10_2x.png" alt=""></a>
-                <a href="./templates/quienes_somos.html" class="nav_bar_item">¿Quiénes Somos?</a>
+                
+                <a href="./templates/quienes_somos.html" class="nav_bar_item">Sobre Nosotros</a>
                 <a href="#servicios" class="nav_bar_item">Servicios</a>
                 <a href="./templates/blog_globalmente.html" target="_blank" class="nav_bar_item">Blog</a>
                 <a href="#contacto" class="nav_bar_item">Contáctanos</a>
@@ -52,16 +63,27 @@
     <section class="slogan">
 
         <div class="slogan_img">
-            <img src="./static/img/banner/img_13.jpg" alt="">
+            <input type="radio" name="position" checked />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <main id="carousel">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <main>
         </div>
 
         <div class="slogan_descripcion">
             <h1>
-                Te ayudamos a encontrar el mejor psicólogo según tu situación actual
+                Los mejores servicios de psicología y psiquiatría en un solo lugar
             </h1>
 
             <h3>
-                Conoce <a href="#servicios">nuestros servicios</a> y <a href="#">agenda tu cita</a>
+                Conoce <a href="#servicios" type="buttom">nuestros servicios</a> y <a href="#">agenda tu cita</a>
             </h3>
         </div>
 
@@ -88,15 +110,16 @@
         <div>
             <p>
                 Seleccionamos de manera minuciosa nuestros Psicólogos y estamos en constante
-                investigación y capacitación de manera individual y grupal.
+                investigación y capacitación.
             </p>
 
             <br />
 
             <p>
-                Por esta razón, podemos ofrecerte <b>profesionales idóneos según las necesidades de tu
-                institución.</b>
+                Por esta razón, podemos ofrecerte <b>profesionales idóneos  según tus necesidades.</b>
             </p>
+            <br>
+            
         </div>
 
         <br /> 
@@ -105,7 +128,7 @@
 
             <div class="servicios_item">
                 <img src="./static/img/icons/psicologia_infantil_adolescente.png" alt="">
-                <p>Psicología infantil y del adolescente</p>
+                <p>psicología clínica niños y adolescentes</p>
             </div>
 
             <div class="servicios_item">
@@ -115,7 +138,7 @@
 
             <div class="servicios_item">
                 <img src="./static/img/icons/psicologia_clinica_salud.png" alt="">
-                <p>Psicología clínica y de la salud para adultos y personas mayores</p>
+                <p>psicología clínica adultos y personas mayores</p>
             </div>
 
             <div class="servicios_item">
@@ -151,7 +174,7 @@
     <section class="solicitar_cita">
 
         <h1>
-            ¿Qué Esperas? Agenda Tu Cita con Nosotros
+             Agenda Tu Cita con Nosotros
         </h1>
 
         <a href="https://wa.me/573227760588?text=Hola%20quiero%20solicitar%20una%20cita%20psicológica%20con%20GlobalMente" target="_blank">
