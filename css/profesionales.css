@@ -5,14 +5,6 @@
     align-items: center;
 }
 
-.profesionales {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 7vw;
-    width: 90%;
-    height: 50%;
-}
-
 .profesionales_title {
     display: flex;
     flex-direction: column;
@@ -20,9 +12,9 @@
     height: 15vh;
 }
 
-.profesionales img {
+.carousel-item img {
     height: 45vh;
-    width: 25vw;
+    width: 10vw;
     border-radius: 5%;
 }
 

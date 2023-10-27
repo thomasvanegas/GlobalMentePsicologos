@@ -1,5 +1,5 @@
-.servicios h1, h2 {
-    color: #52005d;
+.servicios_title h1, h2 {
+    color: #52005d !important;
     font-size: xx-large;
 }
 
@@ -24,8 +24,8 @@
 
 .servicios_container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5vw;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2vw;
     width: 80%;
 }
 

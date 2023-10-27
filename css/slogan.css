@@ -43,9 +43,32 @@
 }
 
 .slogan h3 a {
-    color: #52005d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    height: 10vh;
+    width: 10vw;
+    background-color: #52005d;
+    border-radius: 50%;
+    text-decoration: none;
 }
 
 .slogan h3 a:hover {
-    color: #A6F7F1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    height: 10vh;
+    width: 10vw;
+    background-color: #B242C1;
+    border-radius: 50%;
+    text-decoration: none;
 }

@@ -33,6 +33,10 @@
     <!-- IMPORTACIÓN BOOTSTRAP PARA BOTÓN DE WHATSAPP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- IMPORTACIÓN CDN BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 
 <body >
@@ -63,9 +67,9 @@
     <section class="slogan">
 
         <div class="slogan_img">
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
             <input type="radio" name="position" checked />
-            <input type="radio" name="position" />
-            <input type="radio" name="position" />
             <input type="radio" name="position" />
             <input type="radio" name="position" />
             <main id="carousel">
@@ -83,7 +87,12 @@
             </h1>
 
             <h3>
-                Conoce <a href="#servicios" type="buttom">nuestros servicios</a> y <a href="#">agenda tu cita</a>
+                <a href="#servicios" type="buttom">Nuestros Servicios</a>  
+
+                <br />
+                <br />
+
+                <a href="#">Agenda Tu Cita</a>
             </h3>
         </div>
 
@@ -95,13 +104,13 @@
 <!-- --- APARTADO DE SERVICIOS --- --- -->
     <section id="servicios" class="servicios">
 
-        <div>
+        <div class="servicios_title">
             <h1>
                 Servicios
             </h1>
         </div>
 
-        <div>
+        <div class="servicios_title">
             <h2>
                 En GlobalMente nos tomamos muy en serio nuestro trabajo
             </h2>
@@ -132,23 +141,13 @@
             </div>
 
             <div class="servicios_item">
-                <img src="./static/img/icons/psiquiatria.png" alt="">
-                <p>Psiquiatría</p>
-            </div>
-
-            <div class="servicios_item">
                 <img src="./static/img/icons/psicologia_clinica_salud.png" alt="">
                 <p>psicología clínica adultos y personas mayores</p>
             </div>
 
             <div class="servicios_item">
-                <img src="./static/img/icons/neuropsicologia.png" alt="">
-                <p>Neuropsicológica</p>
-            </div>
-
-            <div class="servicios_item">
-                <img src="./static/img/icons/terapia_adicciones.png" alt="">
-                <p>Terapia para adicciones</p>
+                <img src="./static/img/icons/psiquiatria.png" alt="">
+                <p>Psicología de la Salud</p>
             </div>
 
             <div class="servicios_item">
@@ -157,13 +156,33 @@
             </div>
 
             <div class="servicios_item">
+                <img src="./static/img/icons/neuropsicologia.png" alt="">
+                <p>Neuropsicológica</p>
+            </div>
+
+            <div class="servicios_item">
+                <img src="./static/img/icons/psiquiatria.png" alt="">
+                <p>Psiquiatría</p>
+            </div>
+
+            <div class="servicios_item">
+                <img src="./static/img/icons/terapia_pareja_familia.png" alt="">
+                <p>Terapia de pareja</p>
+            </div>
+
+            <div class="servicios_item">
+                <img src="./static/img/icons/terapia_pareja_familia.png" alt="">
+                <p>Terapia familiar</p>
+            </div>
+
+            <div class="servicios_item">
                 <img src="./static/img/icons/orientacion_profesional.png" alt="">
                 <p>Orientación profesional</p>
             </div>
 
             <div class="servicios_item">
-                <img src="./static/img/icons/terapia_pareja_familia.png" alt="">
-                <p>Terapia de pareja y familia</p>
+                <img src="./static/img/icons/terapia_adicciones.png" alt="">
+                <p>Terapia de adicciones</p>
             </div>
 
         </div>
@@ -174,8 +193,11 @@
     <section class="solicitar_cita">
 
         <h1>
-             Agenda Tu Cita con Nosotros
+            Agenda Tu Cita con Nosotros
         </h1>
+
+
+        <!-- SOLICITAR CITA -->
 
         <a href="https://wa.me/573227760588?text=Hola%20quiero%20solicitar%20una%20cita%20psicológica%20con%20GlobalMente" target="_blank">
             Solicitar Cita
@@ -195,92 +217,139 @@
             </a></h2>
         </div>
 
+            <!-- --- --- INICIO SECCION CARRUSEL PROFESIONALES --- --- -->
+    <div id="carouselExampleCaptions" class="carousel slide">
 
-        <div class="profesionales">
-            <div>
-                <img src="./static/img/profesionales/monica_agudelo.png" alt="">
-                <h3>Mónica María Agudelo</h3>
-                <ul>
-                    <li>Psicóloga USB (1996)</li>
-                    <li>Especialista en Psicología Clínica. Enfoque cognitivo Uninorte (1998)</li>
-                    <li>Experencia en el área clínica (Adultos, Adolescentes y Pareja) y Educativa</li>
-                </ul>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+                aria-label="Slide 8"></button>
+        </div>
+
+
+        <div class="carousel-inner">
+
+            <!-- MÓNICA MARÍA AGUDELO -->
+            <div class="carousel-item active">
+                <img src="./static/img/profesionales/monica_agudelo.png" class="d-block w-100 profesionales" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Mónica María Agudelo</h3>
+                    <p>
+                        Psicóloga USB (1996) | Especialista en Psicología Clínica. Enfoque cognitivo Uninorte (1998) |
+                        Experencia en el área clínica (Adultos, Adolescentes y Pareja) y Educativa
+                    </p>
+                </div>
             </div>
 
-            <div>
-                <img src="./static/img/profesionales/camila_arango.png" alt="">
-                <h3>Camila Arango Restrepo</h3>
-                <ul>
-                    <li>Psicóloga UPB (2016)</li>
-                    <li>Especialista en Psicología Clínica y Salud Mental UPB (2017)</li>
-                    <li>Experencia en el área clínica (Adultos, Personas Mayores y Pacientes Psiquiátricos)</li>
-                </ul>
+            <!-- CAMILA ARANGO RESTREPO -->
+            <div class="carousel-item activate">
+                <img src="./static/img/profesionales/camila_arango.png" class="d-block w-100 profesionales" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Camila Arango Restrepo</h3>
+                    <p>
+                        Psicóloga UPB (2016) | Especialista en Psicología Clínica y Salud Mental UPB (2017) |
+                        Experencia en el área clínica (Adultos, Personas Mayores y Pacientes Psiquiátricos)
+                    </p>
+                </div>
             </div>
 
-            <div>
-                <img src="./static/img/profesionales/ana_sierra.png" alt="">
-                <h3>Ana María Sierra</h3>
-                <ul>
-                    <li>Psicóloga UPB (2006)</li>
-                    <li>Especialista en Psicología Social UPB (2008)</li>
-                    <li>Magíster en Psicología y Salud Mental UPB (2013)</li>
-                    <li>Experiencia en el área clínica (Niños, Adolescentes y Adultos) y Educativa</li>
-                </ul>
+            <!-- ANA MARÍA SIERRA -->
+            <div class="carousel-item activate">
+                <img src="./static/img/profesionales/ana_sierra.png" class="d-block w-100 profesionales" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Ana María Sierra</h3>
+                    <p>
+                        Psicóloga UPB (2006) | Especialista en Psicología Social UPB (2008) | Magíster en Psicología y
+                        Salud Mental UPB (2013) |
+                        Experiencia en el área clínica (Niños, Adolescentes y Adultos) y Educativa
+                    </p>
+                </div>
             </div>
 
-            <div>
-                <img src="./static/img/profesionales/nathalia_lopez.png" alt="">
-                <h3>Nathalia López  Castañeda</h3>
-                <ul>
-                    <li>Psicóloga UPB (2016)</li>
-                    <li>Especialista en Adicciones y Salud Mental FUNLAM (2018)</li>
-                    <li>
-                        Experencia en Rehabilitación de Adicciones Intrahospitalaria y Ambulatoria 
-                        (Adolescentes y adultos)
-                    </li>
-                </ul>
+            <!-- NATHALIA LÓPEZ CASTAÑEDA -->
+            <div class="carousel-item active activate">
+                <img src="./static/img/profesionales/nathalia_lopez.png" class="d-block w-100 profesionales" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Nathalia López Castañeda</h3>
+                    <p>
+                        Psicóloga UPB (2016) | Especialista en Adicciones y Salud Mental FUNLAM (2018) |
+                        Experencia en Rehabilitación de Adicciones Intrahospitalaria y Ambulatoria (Adolescentes y
+                        adultos)
+                    </p>
+                </div>
             </div>
 
-            <div>
-                <img src="./static/img/profesionales/andrea_toro.png" alt="">
-                <h3>Andrea Toro Uribe</h3>
-                <ul>
-                    <li>Psicóloga CES (2016)</li>
-                    <li>Especialista en Psicología Médica y de la Salud, Universidad del Bosque (2018)</li>
-                    <li>Magíster con doble titulación en Psicología Clínica y de la Salud ISEP (2019)</li>
-                    <li>Experiencia en el área hospitalaria (Adolescentes y Adultos) y Educativa</li>
-                </ul>
+            <!-- ANDREA TORO URIBE -->
+            <div class="carousel-item active activate">
+                <img src="./static/img/profesionales/andrea_toro.png" class="d-block w-100 profesionales" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Andrea Toro Uribe</h5>
+                    <p>
+                        Psicóloga CES (2016) | Especialista en Psicología Médica y de la Salud, Universidad del Bosque
+                        (2018) |
+                        Magíster con doble titulación en Psicología Clínica y de la Salud ISEP (2019) |
+                        Experiencia en el área hospitalaria (Adolescentes y Adultos) y Educativa
+                    </p>
+                </div>
             </div>
 
-            <div>
-                <img src="./static/img/profesionales/diana_castrillon.png" alt="">
-                <h3>Diana Castrillón Pérez</h3>
-                <ul>
-                    <li>Psicóloga CES (2009)</li>
-                    <li>Especialista en Rehabilitación Neuropsicológica CES (2012)</li>
-                    <li>
-                        Experencia en el área Intrahospitalaria y Ambulatoria. Evaluación y 
-                        Rehabilitación en Niños y Adultos
-                    </li>
-                </ul>
+            <!-- DIANA CASTRILLÓN PÉREZ -->
+            <div class="carousel-item active activate">
+                <img src="./static/img/profesionales/diana_castrillon.png" class="d-block w-100 profesionales" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Diana Castrillón Pérez</h3>
+                    <p>
+                        Psicóloga CES (2009) | Especialista en Rehabilitación Neuropsicológica CES (2012) |
+                        Experencia en el área Intrahospitalaria y Ambulatoria. Evaluación y Rehabilitación en Niños y
+                        Adultos
+                    </p>
+                </div>
             </div>
 
-            <div>
-                <img src="./static/img/profesionales/luisa_naranjo.png" alt="">
-                <h3>Dra. Luisa Fernanda Naranjo</h3>
-                <ul>
-                    <li>Médica UPB (2016)</li>
-                    <li>Psiquiatra UPB (2020)</li>
-                    <li>
-                        Experencia con Niños, Adolescentes y Adultos Con diferentes
+            <!-- DRA. LUISA FERNANDA NARANJO -->
+            <div class="carousel-item active activate">
+                <img src="./static/img/profesionales/luisa_naranjo.png" class="d-block w-100 profesionales" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Dra. Luisa Fernanda Naranjo</h3>
+                    <p>
+                        Médica UPB (2016) | Psiquiatra UPB (2020) | Experencia con Niños, Adolescentes y Adultos Con
+                        diferentes
                         diágnosticos Psicopatológicos
-                    </li>
-
-                    <!-- SALTO DE LÍNEA (MALA PRACTICA) -->
-                    <br> <br>
-                </ul>
+                    </p>
+                </div>
             </div>
         </div>
+
+        <!-- --- --- BOTÓN DE REGRESO --- --- -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <!-- --- --- BOTÓN DE SIGUIENTE --- --- -->
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+        <!-- --- --- FIN SECCION CARRUSEL PROFESIONALES --- --- -->
+    </div>
+
 
     </section>
 
@@ -378,6 +447,11 @@
 
     <!-- IMPORTANDO LA LIBRERÍA SWIPER -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+
+    <!-- IMPORTANDO CDN DE BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
 </body>
 </html>
