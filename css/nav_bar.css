@@ -8,6 +8,7 @@ nav {
     width: 100%;
     position: sticky;
     background-color: white; /* SIN WHITE, ES TRANSPARENTE*/
+    border-top: 5vh white solid;
 }
 
 nav a {
