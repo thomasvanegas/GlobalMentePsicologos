@@ -1,4 +1,4 @@
-.servicios_title h1, h2 {
+.servicios_title h1, h3 {
     color: #52005d !important;
     font-size: xx-large;
 }
@@ -10,6 +10,7 @@
 }
 
 .servicios {
+    border-top: 15vh white solid;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -35,11 +36,13 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    height: 22vh;
+    height: 20vh;
     border: 0.3vw white solid;
     border-radius: 10%;
     padding: 2vh;
 }
+
+.servicios_item 
 
 .servicios_item:hover {
     cursor: pointer;
