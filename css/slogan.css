@@ -44,10 +44,10 @@
     font-size: large;
     font-weight: 500;
     width: 30%;
-    height: 50%;
-    border-radius: 10%;
+    height: 40%;
+    border-radius: 5%;
     transition: 0.5s;
-    box-shadow: 10px 10px 20px rgba(178, 66, 193, 0.8);
+    /* box-shadow: 10px 10px 20px rgba(178, 66, 193, 0.8); */
 }
 
 .slogan_agendar_cita {
@@ -66,4 +66,5 @@
     transform: scale(1.1, 1.1);
     color: white;
     border: 1px white solid;
+    /* box-shadow: 10px 10px 20px rgba(0, 159, 159, 0.8); */
 }
