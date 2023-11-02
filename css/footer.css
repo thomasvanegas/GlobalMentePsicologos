@@ -1,16 +1,29 @@
 footer {
-    height: 15vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    color: #52005d;
+    background-color: #52005d;
 }
 
-footer a {
-    color: #52005d;
+footer p {
+    color: white;
 }
 
-footer a:hover {
-    color: #D378FE;
+.nuestras_redes h4{
+    color: white !important;
+}
+
+.redes_sociales img {
+    height: 6vh;
+    width: 3vw;
+    border-top: 2vh #52005d solid;
+}
+
+.redes_sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }

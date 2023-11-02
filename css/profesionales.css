@@ -12,6 +12,11 @@
     height: 15vh;
 }
 
+.profesionales_title h1{
+    color: #52005d !important;
+    text-decoration: none;
+}
+
 .carousel-item img {
     height: 45vh;
     width: 10vw;

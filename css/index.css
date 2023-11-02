@@ -47,9 +47,13 @@ ul {
     width: 15vw;
 }
 
+.ubicacion_item a {
+    text-decoration: none;
+    color: #52005d;
+}
+
 .main_logo_informacion_ubicacion {
-    height: 25vh;
-    width: 20vw;
+    width: 50%;
 }
 
 #whatsapp {
