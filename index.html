@@ -39,10 +39,10 @@
 
 </head>
 
-<body>
+<body id="inicio">
 
     <!-- ---  ---  BARRA DE NAVEGACIÓN ---  ---  ---  -->
-    <nav class="nav_bar">
+    <nav class="nav_bar" id="navbar">
         <div class="nav_img">
             <a href="#inicio">
                 <img src="./static/img/Logos/PNG/Secundario/logo_secundario_tagline_10_2x.png"
@@ -50,6 +50,7 @@
             </a>
         </div>
         <div class="nav_menu">
+            <a href="#inicio">Inicio</a>
             <a href="./templates/quienes_somos.html" class="nav_bar_item">Sobre Nosotros</a>
             <a href="#servicios" class="nav_bar_item">Servicios</a>
             <a href="./templates/blog_globalmente.html" target="_blank" class="nav_bar_item">Blog</a>
@@ -63,8 +64,8 @@
 
         <div class="slogan_img">
             <input type="radio" name="position" />
-            <input type="radio" name="position" />
             <input type="radio" name="position" checked />
+            <input type="radio" name="position" />
             <input type="radio" name="position" />
             <input type="radio" name="position" />
             <main id="carousel">
@@ -77,18 +78,19 @@
         </div>
 
         <div class="slogan_descripcion">
-            <h1>
-                Los mejores servicios de psicología y psiquiatría en un solo lugar
-            </h1>
+            <div class="slogan_descripcion_title">
+                <h1>
+                    Los mejores servicios de psicología y psiquiatría en un solo lugar
+                </h1>
+            </div>
 
-            <h3>
-                <a href="#servicios" type="buttom">Nuestros Servicios</a>
-
-                <br />
-                <br />
-
-                <a href="#">Agenda Tu Cita</a>
-            </h3>
+            <div class="slogan_descripcion_buttons">
+                <a
+                    href="https://wa.me/573227760588?text=Hola%20estoy%20interesado%20en%20conocer%20más%20sobre%20los%20servicios%20de%20GlobalMente"
+                    class="slogan_agendar_cita">
+                    Agenda Tu Cita</a>
+                <a href="#servicios" class="slogan_nuestros_servicios">Nuestros Servicios</a>
+            </div>
         </div>
 
     </section>
@@ -441,6 +443,7 @@
     <script src="./js/header.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/form.js"></script>
+    <script src="./js/sticky.js"></script>
 
     <!-- IMPORTANDO LA LIBRERÍA SWIPER -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>

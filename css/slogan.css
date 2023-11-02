@@ -2,31 +2,11 @@
 .slogan {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 85vh;
+    height: 90vh;
+    border-bottom: 1px #52005d solid;
 }
-
-/* DEFINICION DE APARTADO IMAGEN DEL BANNER */
-.slogan_img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.slogan_img img{
-    border-left: 2vw white solid;
-    border-radius: 10%;
-    width: 55vw;
-    height: 60vh;
-    transform: perspective(90vw) rotateY(45deg);
-    -webkit-box-shadow: 0px 1px 43px -1px rgba(178,66,193,0.6);
-    -moz-box-shadow: 0px 1px 43px -1px rgba(178,66,193,0.6);
-    box-shadow: 0px 1px 43px -1px rgba(178,66,193,0.6);
-}
-
 /* DEFINICION DE APARTADO DESCRIPCION DEL BANNER */
 .slogan_descripcion {
-    border-right: 2vw white solid;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -34,7 +14,7 @@
     text-align: center;
 }
 
-.slogan h1, h3 {
+.slogan h1{
     color: #52005d;
 }
 
@@ -42,33 +22,48 @@
     font-size: xx-large;
 }
 
-.slogan h3 a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-    font-size: small;
-    font-weight: bold;
-    height: 10vh;
-    width: 10vw;
-    background-color: #52005d;
-    border-radius: 50%;
-    text-decoration: none;
+.slogan_descripcion_title {
+    width: 80%;
 }
 
-.slogan h3 a:hover {
+/* --- BOTÓNES CALL TO ACTION --- */
+.slogan_descripcion_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+}
+
+.slogan_descripcion_buttons a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: small;
-    font-weight: bold;
-    height: 10vh;
-    width: 10vw;
-    background-color: #B242C1;
-    border-radius: 50%;
     text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+    width: 30%;
+    height: 75%;
+    border-radius: 15%;
+    transition: 0.5s;
+    box-shadow: 10px 10px 20px rgba(178, 66, 193, 0.8);
+}
+
+.slogan_agendar_cita {
+    background-color: #52005d;
+    color: white;
+}
+
+.slogan_nuestros_servicios {
+    background-color: white;
+    color: #52005d;
+    border: 1px #52005d solid;
+}
+
+.slogan_descripcion_buttons a:hover {
+    background-color: #009F9F;
+    transform: scale(1.1, 1.1);
+    color: white;
+    border: 1px white solid;
 }

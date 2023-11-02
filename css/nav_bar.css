@@ -4,10 +4,10 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 15vh;
+    height: 10vh;
     width: 100%;
     position: sticky;
-    border-bottom: 1px #52005D solid;
+    background-color: white; /* SIN WHITE, ES TRANSPARENTE*/
 }
 
 nav a {
@@ -34,4 +34,9 @@ nav a:hover {
     justify-content: space-evenly;
     align-items: center;
     width: 60%;
+}
+
+.sticky {
+    top: 0;
+    width: 100%;
 }
