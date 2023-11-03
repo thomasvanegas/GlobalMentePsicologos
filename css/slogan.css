@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 90vh;
-    border-bottom: 1px #52005d solid;
 }
 /* DEFINICION DE APARTADO DESCRIPCION DEL BANNER */
 .slogan_descripcion {
