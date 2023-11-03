@@ -1,0 +1,84 @@
+.profesionales {
+    border-top: 15vh white solid;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profesionales_title {
+    height: 8vh;
+    color: #52005d;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.profesionales_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    padding-top: 2vh;
+    border-bottom: 1px #52005d solid;
+}
+
+.profesionales_fila_1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    width: 90%;
+    padding-top: 2vh;
+}
+
+.profesionales_fila_2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    width: 90%;
+    padding-top: 2vh;
+    border-bottom: 2vh white solid;
+}
+
+.profesional_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+    height: 36vh;
+}
+
+.profesionales_img img {
+    width: 22vh;
+    border-radius: 5%;
+}
+
+.profesionales_descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+}
+
+.profesionales_nombre h3 {
+    font-size: small;
+    color: #52005d;
+}
+
+.profesionales_informacion ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    height: 12vh;
+}
+
+.profesionales_informacion ul li {
+    font-size: small;
+    text-align: center;
+}

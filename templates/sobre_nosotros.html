@@ -2,13 +2,24 @@
 <html lang="es">
 
 <head>
+
+    <!-- METADATOS RESPECTO A LA WEB PAGE -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TÍTULO DE LA PÁGINA -->
     <title>Sobre Nosotros | GlobalMente Psicólogos</title>
+
+    <!-- ICONO EN FORMATO FAVICON -->
+    <link rel="icon" href="../static/img/ico/isotipo_light_blue_2x.ico" type="image/x-icon">
+
+    <!-- IMPORTACIÓN DE DIVERSOS ESTILOS -->
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/nav_bar.css">
     <link rel="stylesheet" href="../css/sobre_nostros.css">
     <link rel="stylesheet" href="../css/logo.css">
+    <link rel="stylesheet" href="../css/profesionales_grid.css">
+    <link rel="stylesheet" href="../css/scrollbar.css">
 </head>
 
 <body>
@@ -16,19 +27,224 @@
     <!-- ---  ---  BARRA DE NAVEGACIÓN ---  ---  ---  -->
     <nav class="nav_bar" id="navbar">
         <div class="nav_img">
-            <a href="#inicio">
-                <img src="./static/img/Logos/PNG/Secundario/logo_secundario_tagline_10_2x.png"
+            <a href="../index.html">
+                <img src="../static/img/Logos/PNG/Secundario/logo_secundario_tagline_10_2x.png"
                     alt="Logo Principal Globalmente Psicologos">
             </a>
         </div>
         <div class="nav_menu">
-            <a href="#inicio">Inicio</a>
+            <a href="../index.html">Regresar a GlobalMente</a>
             <a href="#sobre_nosotros" class="nav_bar_item">Sobre Nosotros</a>
-            <a href="#servicios" class="nav_bar_item">Servicios</a>
-            <a href="./templates/blog_globalmente.html" target="_blank" class="nav_bar_item">Blog</a>
+            <a href="#profesionales" class="nav_bar_item">Profesionales</a>
             <a href="#contacto" class="nav_bar_item">Contáctanos</a>
         </div>
     </nav>
 
+
+
+    <!-- --- --- MÓDULO SOBRE NOSOTROS --- --- --- -->
+    <div class="sobre_nosotros" id="sobre_nosotros">
+
+        <div class="sobre_nosotros_title">
+            <h1>Sobre Nosotros</h1>
+        </div>
+
+        <div class="sobre_nosotros_descripcion">
+            <div>
+                <p>
+                    Somos un grupo de psicólogos y psiquiatras que nos unimos con el propósito de brindar
+                    una amplia variedad de servicios en salud mental con un alto estándar técnico y humano
+                    que nos diferencia de otras instituciones.
+                </p>
+            </div>
+
+            <div>
+                <h3>Permanentemente estamos en servicio de ayudar a los demás.</h3>
+                <p>
+                    Nos mueve servir a los demás y tenemos un interés genuino por ayudar a otros a que transformen sus
+                    vidas.
+                    Amamos estar rodeados de personas con un amor intenso a la vida y que la empatía y
+                    calidez sean valores fundamentales en su día a día
+                </p>
+            </div>
+
+
+            <div>
+                <h3>Todos nuestros procesos están fundamentados en lo científico y académico</h3>
+                <p>
+                    Tenemos como foco trabajar con base en lo científico. Nuestro equipo tiene los
+                    conocimientos académicos más altos y está en constante capacitación para entregar
+                    los mejores resultados a nuestros pacientes.
+                </p>
+            </div>
+
+            <div class="sobre_nosotros_conclusion">
+                <p>Buscamos brindarle las herramientas al paciente para que emprenda su propio vuelo.</p>
+                <img src="../static/img/Logos/PNG/Principal/Logo Principal Tagline-12-2x.png" alt="Logo GlobalMente">
+            </div>
+        </div>
+
+    </div>
+    <!-- --- --- FIN SOBRE NOSOTROS --- --- --- -->
+
+
+
+
+
+    <!-- --- --- --- MÓDULO PROFESIONALES --- --- --- -->
+    <div class="profesionales" id="profesionales">
+
+        <div class="profesionales_title">
+            <h1>Profesionales</h1>
+        </div>
+
+        <div class="profesionales_container">
+
+            <!-- PROFESIONAL COMPONENTE -->
+            <div class="profesionales_fila_1">
+
+                <!-- PROFESIONAL N°1 -->
+                <div class="profesional_item">
+                    <div class="profesionales_img">
+                        <img src="../static/img/profesionales/monica_agudelo.png">
+                    </div>
+                    <div class="profesionales_descripcion">
+                        <div class="profesionales_nombre">
+                            <h3>Mónica Agudelo</h3>
+                        </div>
+                        <div class="profesionales_informacion">
+                            <ul>
+                                <li>Psicóloga USB (1996)</li>
+                                <li>Esp. Psicología Clínica</li>
+                                <li>Exp. Área clínica</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROFESIONAL N°2 -->
+                <div class="profesional_item">
+                    <div class="profesionales_img">
+                        <img src="../static/img/profesionales/camila_arango.png">
+                    </div>
+                    <div class="profesionales_descripcion">
+                        <div class="profesionales_nombre">
+                            <h3>Camila Arango</h3>
+                        </div>
+                        <div class="profesionales_informacion">
+                            <ul>
+                                <li>Psicóloga UPB (2016)</li>
+                                <li>Esp. Psicología Clínica</li>
+                                <li>Exp. Área clínica</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROFESIONAL N°3 -->
+                <div class="profesional_item">
+                    <div class="profesionales_img">
+                        <img src="../static/img/profesionales/ana_sierra.png">
+                    </div>
+                    <div class="profesionales_descripcion">
+                        <div class="profesionales_nombre">
+                            <h3>Ana Sierra</h3>
+                        </div>
+                        <div class="profesionales_informacion">
+                            <ul>
+                                <li>Psicóloga UPB (2006)</li>
+                                <li>Esp. Psicología Social</li>
+                                <li>Mg. Psicología y Salud Mental</li>
+                                <li>Exp. Área clínica y Educativa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROFESIONAL N°4 -->
+                <div class="profesional_item">
+                    <div class="profesionales_img">
+                        <img src="../static/img/profesionales/nathalia_lopez.png">
+                    </div>
+                    <div class="profesionales_descripcion">
+                        <div class="profesionales_nombre">
+                            <h3>Nathalia López</h3>
+                        </div>
+                        <div class="profesionales_informacion">
+                            <ul>
+                                <li>Psicóloga UPB (2016)</li>
+                                <li>Esp. Adicciones y Salud Mental</li>
+                                <li>Exp. Rehabilitación de Adicciones</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profesionales_fila_2">
+                <!-- PROFESIONAL N°5 -->
+                <div class="profesional_item">
+                    <div class="profesionales_img">
+                        <img src="../static/img/profesionales/andrea_toro.png">
+                    </div>
+                    <div class="profesionales_descripcion">
+                        <div class="profesionales_nombre">
+                            <h3>Andrea Toro</h3>
+                        </div>
+                        <div class="profesionales_informacion">
+                            <ul>
+                                <li>Psicóloga CES (2016)</li>
+                                <li>Esp. Psicología Médica</li>
+                                <li>Mg. Psicología Clínica</li>
+                                <li>Exp. Área Hospitalaria</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROFESIONAL N°6 -->
+                <div class="profesional_item">
+                    <div class="profesionales_img">
+                        <img src="../static/img/profesionales/diana_castrillon.png">
+                    </div>
+                    <div class="profesionales_descripcion">
+                        <div class="profesionales_nombre">
+                            <h3>Diana Castrillón</h3>
+                        </div>
+                        <div class="profesionales_informacion">
+                            <ul>
+                                <li>Psicóloga CES (2009)</li>
+                                <li>Esp. Rehabilitación Neuropsicológica</li>
+                                <li>Exp. Área Intrahospitalaria y Ambulatoria</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROFESIONAL N°7 -->
+                <div class="profesional_item">
+                    <div class="profesionales_img">
+                        <img src="../static/img/profesionales/luisa_naranjo.png">
+                    </div>
+                    <div class="profesionales_descripcion">
+                        <div class="profesionales_nombre">
+                            <h3>Luisa Naranjo</h3>
+                        </div>
+                        <div class="profesionales_informacion">
+                            <ul>
+                                <li>Médica UPB (2016)</li>
+                                <li>Psiquiátra UPB (2020)</li>
+                                <li>Exp. Diagnósticos Psicopatológicos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- --- --- --- FIN PROFESIONALES --- --- --- -->
+
+    <!-- --- --- --- IMPORTACIÓN MÓDULOS DE JS --- --- --- -->
+    <script src="../js/sticky.js"></script>
+
+
 </body>
+
 </html>

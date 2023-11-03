@@ -4,12 +4,13 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    border-top: 15vh white solid; 
+    border-top: 10vh white solid; 
     background-color: white;
+    border-bottom: 1px #52005d solid;
 }
 
 .sobre_nosotros_title {
-    height: 10vh;
+    height: 5vh;
 }
 
 .sobre_nosotros_title h1 {
