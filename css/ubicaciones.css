@@ -1,0 +1,51 @@
+.informacion_ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+}
+
+.informacion_ubicacion_title h1 {
+    color: #52005d;
+    font-size: xx-large;
+}
+
+.informacion_ubicacion_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+
+.ubicacion_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 95%;
+}
+
+.ubicacion_item img {
+    height: 20vh;
+}
+
+
+.ubicacion_item a p {
+    text-align: center;
+    font-size: small;
+}
+
+.ubicacion_item a {
+    text-decoration: none;
+    color: #52005d;
+}
+
+.ubicacion_item_descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
