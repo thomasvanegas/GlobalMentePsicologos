@@ -18,7 +18,7 @@
 
     <!-- INVOCANDO ARCHIVOS DE ESTILOS -->
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/profesionales.css">
+    <link rel="stylesheet" href="./css/profesionales_grid.css">
     <link rel="stylesheet" href="./css/scrollbar.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/servicios.css">
@@ -203,161 +203,156 @@
     </section>
 
 
-    <!-- --- --- APARTADO DE LISTADO DE PROFESIONALES --- ---  -->
+<!-- --- --- --- MÓDULO PROFESIONALES --- --- --- -->
+<div class="profesionales" id="profesionales">
 
+    <div class="profesionales_title">
+        <h1>Profesionales</h1>
+    </div>
 
-    <section id="profesionales" class="profesionales_container">
+    <div class="profesionales_container">
 
-        <div class="profesionales_title">
-            <h1>
-                Profesionales
-            </h1>
-        </div>
+        <!-- PROFESIONAL COMPONENTE -->
+        <div class="profesionales_fila_1">
 
-        <!-- --- --- INICIO SECCION CARRUSEL PROFESIONALES --- --- -->
-        <div id="carouselExampleCaptions" class="carousel slide">
-
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-                    aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-                    aria-label="Slide 6"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
-                    aria-label="Slide 7"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
-                    aria-label="Slide 8"></button>
-            </div>
-
-
-            <div class="carousel-inner">
-
-                <!-- MÓNICA MARÍA AGUDELO -->
-                <div class="carousel-item active">
-                    <img src="./static/img/profesionales/monica_agudelo.png" class="d-block w-100 profesionales"
-                        alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Mónica María Agudelo</h3>
-                        <p>
-                            Psicóloga USB (1996) | Especialista en Psicología Clínica. Enfoque cognitivo Uninorte (1998)
-                            |
-                            Experencia en el área clínica (Adultos, Adolescentes y Pareja) y Educativa
-                        </p>
-                    </div>
+            <!-- PROFESIONAL N°1 -->
+            <div class="profesional_item">
+                <div class="profesionales_img">
+                    <img src="./static/img/profesionales/monica_agudelo.png">
                 </div>
-
-                <!-- CAMILA ARANGO RESTREPO -->
-                <div class="carousel-item activate">
-                    <img src="./static/img/profesionales/camila_arango.png" class="d-block w-100 profesionales"
-                        alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Camila Arango Restrepo</h3>
-                        <p>
-                            Psicóloga UPB (2016) | Especialista en Psicología Clínica y Salud Mental UPB (2017) |
-                            Experencia en el área clínica (Adultos, Personas Mayores y Pacientes Psiquiátricos)
-                        </p>
+                <div class="profesionales_descripcion">
+                    <div class="profesionales_nombre">
+                        <h3>Mónica Agudelo</h3>
                     </div>
-                </div>
-
-                <!-- ANA MARÍA SIERRA -->
-                <div class="carousel-item activate">
-                    <img src="./static/img/profesionales/ana_sierra.png" class="d-block w-100 profesionales" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Ana María Sierra</h3>
-                        <p>
-                            Psicóloga UPB (2006) | Especialista en Psicología Social UPB (2008) | Magíster en Psicología
-                            y
-                            Salud Mental UPB (2013) |
-                            Experiencia en el área clínica (Niños, Adolescentes y Adultos) y Educativa
-                        </p>
-                    </div>
-                </div>
-
-                <!-- NATHALIA LÓPEZ CASTAÑEDA -->
-                <div class="carousel-item active activate">
-                    <img src="./static/img/profesionales/nathalia_lopez.png" class="d-block w-100 profesionales"
-                        alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Nathalia López Castañeda</h3>
-                        <p>
-                            Psicóloga UPB (2016) | Especialista en Adicciones y Salud Mental FUNLAM (2018) |
-                            Experencia en Rehabilitación de Adicciones Intrahospitalaria y Ambulatoria (Adolescentes y
-                            adultos)
-                        </p>
-                    </div>
-                </div>
-
-                <!-- ANDREA TORO URIBE -->
-                <div class="carousel-item active activate">
-                    <img src="./static/img/profesionales/andrea_toro.png" class="d-block w-100 profesionales" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Andrea Toro Uribe</h5>
-                        <p>
-                            Psicóloga CES (2016) | Especialista en Psicología Médica y de la Salud, Universidad del
-                            Bosque
-                            (2018) |
-                            Magíster con doble titulación en Psicología Clínica y de la Salud ISEP (2019) |
-                            Experiencia en el área hospitalaria (Adolescentes y Adultos) y Educativa
-                        </p>
-                    </div>
-                </div>
-
-                <!-- DIANA CASTRILLÓN PÉREZ -->
-                <div class="carousel-item active activate">
-                    <img src="./static/img/profesionales/diana_castrillon.png" class="d-block w-100 profesionales"
-                        alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Diana Castrillón Pérez</h3>
-                        <p>
-                            Psicóloga CES (2009) | Especialista en Rehabilitación Neuropsicológica CES (2012) |
-                            Experencia en el área Intrahospitalaria y Ambulatoria. Evaluación y Rehabilitación en Niños
-                            y
-                            Adultos
-                        </p>
-                    </div>
-                </div>
-
-                <!-- DRA. LUISA FERNANDA NARANJO -->
-                <div class="carousel-item active activate">
-                    <img src="./static/img/profesionales/luisa_naranjo.png" class="d-block w-100 profesionales"
-                        alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Dra. Luisa Fernanda Naranjo</h3>
-                        <p>
-                            Médica UPB (2016) | Psiquiatra UPB (2020) | Experencia con Niños, Adolescentes y Adultos Con
-                            diferentes
-                            diágnosticos Psicopatológicos
-                        </p>
+                    <div class="profesionales_informacion">
+                        <ul>
+                            <li>Psicóloga USB (1996)</li>
+                            <li>Esp. Psicología Clínica</li>
+                            <li>Exp. Área clínica</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
-            <!-- --- --- BOTÓN DE REGRESO --- --- -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-
-            <!-- --- --- BOTÓN DE SIGUIENTE --- --- -->
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-
-            <!-- --- --- FIN SECCION CARRUSEL PROFESIONALES --- --- -->
+            <!-- PROFESIONAL N°2 -->
+            <div class="profesional_item">
+                <div class="profesionales_img">
+                    <img src="./static/img/profesionales/camila_arango.png">
+                </div>
+                <div class="profesionales_descripcion">
+                    <div class="profesionales_nombre">
+                        <h3>Camila Arango</h3>
+                    </div>
+                    <div class="profesionales_informacion">
+                        <ul>
+                            <li>Psicóloga UPB (2016)</li>
+                            <li>Esp. Psicología Clínica</li>
+                            <li>Exp. Área clínica</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- PROFESIONAL N°3 -->
+            <div class="profesional_item">
+                <div class="profesionales_img">
+                    <img src="./static/img/profesionales/ana_sierra.png">
+                </div>
+                <div class="profesionales_descripcion">
+                    <div class="profesionales_nombre">
+                        <h3>Ana Sierra</h3>
+                    </div>
+                    <div class="profesionales_informacion">
+                        <ul>
+                            <li>Psicóloga UPB (2006)</li>
+                            <li>Esp. Psicología Social</li>
+                            <li>Mg. Psicología y Salud Mental</li>
+                            <li>Exp. Área clínica y Educativa</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- PROFESIONAL N°4 -->
+            <div class="profesional_item">
+                <div class="profesionales_img">
+                    <img src="./static/img/profesionales/nathalia_lopez.png">
+                </div>
+                <div class="profesionales_descripcion">
+                    <div class="profesionales_nombre">
+                        <h3>Nathalia López</h3>
+                    </div>
+                    <div class="profesionales_informacion">
+                        <ul>
+                            <li>Psicóloga UPB (2016)</li>
+                            <li>Esp. Adicciones y Salud Mental</li>
+                            <li>Exp. Rehabilitación de Adicciones</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
+        <div class="profesionales_fila_2">
+            <!-- PROFESIONAL N°5 -->
+            <div class="profesional_item">
+                <div class="profesionales_img">
+                    <img src="./static/img/profesionales/andrea_toro.png">
+                </div>
+                <div class="profesionales_descripcion">
+                    <div class="profesionales_nombre">
+                        <h3>Andrea Toro</h3>
+                    </div>
+                    <div class="profesionales_informacion">
+                        <ul>
+                            <li>Psicóloga CES (2016)</li>
+                            <li>Esp. Psicología Médica</li>
+                            <li>Mg. Psicología Clínica</li>
+                            <li>Exp. Área Hospitalaria</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- PROFESIONAL N°6 -->
+            <div class="profesional_item">
+                <div class="profesionales_img">
+                    <img src="./static/img/profesionales/diana_castrillon.png">
+                </div>
+                <div class="profesionales_descripcion">
+                    <div class="profesionales_nombre">
+                        <h3>Diana Castrillón</h3>
+                    </div>
+                    <div class="profesionales_informacion">
+                        <ul>
+                            <li>Psicóloga CES (2009)</li>
+                            <li>Esp. Rehabilitación Neuropsicológica</li>
+                            <li>Exp. Área Intrahospitalaria y Ambulatoria</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- PROFESIONAL N°7 -->
+            <div class="profesional_item">
+                <div class="profesionales_img">
+                    <img src="./static/img/profesionales/luisa_naranjo.png">
+                </div>
+                <div class="profesionales_descripcion">
+                    <div class="profesionales_nombre">
+                        <h3>Luisa Naranjo</h3>
+                    </div>
+                    <div class="profesionales_informacion">
+                        <ul>
+                            <li>Médica UPB (2016)</li>
+                            <li>Psiquiátra UPB (2020)</li>
+                            <li>Exp. Diagnósticos Psicopatológicos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    </section>
+    </div>
+
+</div>
+<!-- --- --- --- FIN PROFESIONALES --- --- --- -->
+
 
     <!-- --- --- --- INFORMACIÓN DE UBICACIONES/CONTACTO --- ---  -->
     <div class="informacion_ubicacion">
