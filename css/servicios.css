@@ -23,13 +23,15 @@
 .servicios_item img {
     height: 7vh;
     width: 4vw;
+    margin-bottom: 3%;
 }
 
 .servicios_container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 2vw;
-    width: 80%;
+   grid-column-gap: 8px ;
+    width: 88%;
+    
 }
 
 .servicios_item {
@@ -44,7 +46,7 @@
     padding: 2vh;
 }
 
-.servicios_item 
+ 
 
 .servicios_item:hover {
     cursor: pointer;

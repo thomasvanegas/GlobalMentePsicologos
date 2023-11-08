@@ -4,12 +4,14 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    height: 19vh;
     width: 100%;
     position: sticky;
     background-color: white; /* SIN WHITE, ES TRANSPARENTE*/
     border-top: 5vh white solid;
     border-bottom: 2vh white solid;
+    
+    
 }
 
 nav a {
@@ -28,6 +30,8 @@ nav a:hover {
 
 .nav_img img {
     width: 70%;
+    margin-top: -2%;
+    margin-left: 5%;
 }
 
 .nav_menu {
@@ -36,6 +40,9 @@ nav a:hover {
     justify-content: space-evenly;
     align-items: center;
     width: 60%;
+    margin-top: -2%;
+    background-color: white;
+    
 }
 
 .sticky {

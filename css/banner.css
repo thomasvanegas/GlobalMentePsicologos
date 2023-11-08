@@ -24,6 +24,7 @@ main#carousel {
   --middle: 3;
   --position: 1;
   pointer-events: none;
+  margin-top: 20%;
 
 }
 

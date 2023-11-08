@@ -11,6 +11,7 @@
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    margin-top: 20%;
 }
 
 .slogan h1{
@@ -33,6 +34,7 @@
     align-items: center;
     width: 80%;
     height: 20%;
+    margin-top: -10%;
 }
 
 .slogan_descripcion_buttons a {
@@ -52,12 +54,15 @@
 .slogan_agendar_cita {
     background-color: #52005d;
     color: white;
+    padding: 4%;
+
 }
 
 .slogan_nuestros_servicios {
     background-color: white;
     color: #52005d;
     border: 1px #52005d solid;
+    padding: 4% 2%;
 }
 
 .slogan_descripcion_buttons a:hover {
