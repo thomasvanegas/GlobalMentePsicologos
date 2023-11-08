@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Contactanos</title>
+  <link rel="stylesheet" href="../css/PagContactanos.css">
+  <link rel="stylesheet" href="../css/nav_bar.css">
+  <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+
+    <nav class="nav_bar" id="navbar">
+        <div class="nav_img">
+            <a href="#inicio">
+                <img src="../static/img/Logos/PNG/Secundario/logo_secundario_tagline_10_2x.png"
+                    alt="Logo Principal Globalmente Psicologos">
+            </a>
+        </div>
+        <div class="nav_menu">
+            <a href="../index.html">Inicio</a>
+            <a href="../templates/sobre_nosotros.html" class="nav_bar_item">Sobre Nosotros</a>
+            <a href="#servicios" class="nav_bar_item">Servicios</a>
+            
+            <a href="./templates/contactanos.html" class="nav_bar_item">Contáctanos</a>
+        </div>
+    </nav>
+
+
+<div class="page-container">      
+  <div class="container">
+    <h1>Contactanos</h1>
+    <div class="contact-info">
+      <div class="contact-details">
+        <div class="info">
+          <h2>Correo Electrónico</h2>
+          <p>contacto@tuempresa.com</p>
+        </div>
+        <div class="info">
+          <h2>Teléfono</h2>
+          <p>(123) 456-7890</p>
+        </div>
+        <div class="info">
+          <h2>Ubicación</h2>
+          <p>Dirección de tu empresa<br>Ciudad, País</p>
+        </div>
+      </div>
+    </div>
+    <form class="contact-form">
+      <h2>Envíanos tus datos</h2>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</div>
+
+<script src="../js/sticky.js"></script>
+</body>
+</html>

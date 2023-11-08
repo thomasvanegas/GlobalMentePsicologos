@@ -1,0 +1,58 @@
+/*.seccion-horizontal {
+    display: flex; 
+    border: 1px solid #ccc; 
+  }
+  
+  .imagen {
+    flex: 1; 
+    padding: 30px 20px ; 
+    margin-left: 80px;
+  }
+  
+  .imagen img {
+    width: 50%; 
+
+  }
+  
+  .descripcion {
+    flex: 1; 
+    padding: 10px; 
+    margin-left: 130px;
+    
+  } */
+
+  .seccion-horizontal {
+    display: flex;
+    border: 1px solid #ccc;
+    background-color: #fff; /* Fondo blanco para la tarjeta */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta el contenido que se desborda */
+    margin: 10px;
+  }
+  
+  .imagen {
+    flex: 1;
+    padding: 30px 20px;
+    margin-left: 80px; /* Elimina el margen izquierdo para la imagen */
+  }
+  
+  .imagen img {
+    width: 50%; /* Asegura que la imagen se ajuste al contenedor */
+    border-radius: 8px 0 0 8px; /* Bordes redondeados solo en la esquina superior izquierda */
+  }
+  
+  .descripcion {
+    flex: 1;
+    padding: 20px; /* Ajusta el espacio alrededor de la descripción */
+    margin-left: 130px; /* Elimina el margen izquierdo para la descripción */
+  }
+  
+  .descripcion1 {
+    flex: 1; 
+    padding: 10px; 
+    margin-right: 130px;
+    
+  }
+  
+  
