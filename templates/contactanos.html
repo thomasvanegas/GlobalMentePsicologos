@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../css/PagContactanos.css">
   <link rel="stylesheet" href="../css/nav_bar.css">
   <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/ubicaciones.css">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
         <div class="nav_menu">
             <a href="../index.html">Inicio</a>
             <a href="../templates/sobre_nosotros.html" class="nav_bar_item">Sobre Nosotros</a>
-            <a href="#servicios" class="nav_bar_item">Servicios</a>
+            <a href="../templates/servicios.html" class="nav_bar_item">Servicios</a>
             
             <a href="./templates/contactanos.html" class="nav_bar_item">Contáctanos</a>
         </div>
@@ -35,31 +36,91 @@
     <div class="contact-info">
       <div class="contact-details">
         <div class="info">
-          <h2>Correo Electrónico</h2>
-          <p>contacto@tuempresa.com</p>
+          <h2>Numero Telefonico</h2>
+          <p>322 7760588</p>
         </div>
+        
         <div class="info">
-          <h2>Teléfono</h2>
-          <p>(123) 456-7890</p>
+          <div class="informacion_ubicacion">
+
+            <div class="informacion_ubicacion_title">
+                <h1>
+                    Lugares de Atención
+                </h1>
+            </div>
+    
+            <div class="informacion_ubicacion_content">
+                <div class="ubicacion_item">
+                    <div>
+                        <img src="../static/img/places/saoPauloPlaza.jpg">
+                    </div>
+                    <div class="ubicacion_item_descripcion">
+                        <a href="https://www.google.com/maps/place/Sao+Paulo+Plaza/@6.1850813,-75.579915,18z/data=!4m16!1m9!3m8!1s0x8e46825e0bb86ea5:0x380351ce43e50948!2sCl.+18C+Sur+%2343a-200,+El+Poblado,+Medell%C3%ADn,+El+Poblado,+Medell%C3%ADn,+Antioquia!3b1!8m2!3d6.1857691!4d-75.5796435!10e5!16s%2Fg%2F11h3wg4p2m!3m5!1s0x8e46825e8765ee77:0xaae8e48874931f61!8m2!3d6.1847178!4d-75.5792791!16s%2Fg%2F1tsyl773?hl=es&entry=ttu"
+                            target="_blank">
+                            <p>
+                                Calle 18C Sur # 43a 200 Sao Paulo Plaza, consultorio 921.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="ubicacion_item">
+                    <div>
+                        <img src="../static/img/places/edificio.jpg">
+                    </div>
+                    <div>
+                        <a href="https://www.google.com/maps/@6.1821949,-75.579752,3a,75y,151.17h,55.26t/data=!3m6!1e1!3m4!1sX03VVN-iMpCl4cpR5-jpbA!2e0!7i16384!8i8192?hl=es&entry=ttu"
+                            target="_blank">
+                            <p>
+                                Cl. 23 Sur # 42B 60 Edificio O'Clock consultorio 505
+                            </p>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="ubicacion_item">
+                    <div>
+                        <img src="../static/img/places/salud_vegas.jpg">
+                    </div>
+                    <div>
+                        <a href=https://www.google.com/maps/place/Torre+M%C3%A9dica+Salud+Vegas/@6.2038432,-75.5767766,3a,75y,29.43h,94.04t/data=!3m7!1e1!3m5!1sXaIvmeshyuX-LvjKOO71JQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DXaIvmeshyuX-LvjKOO71JQ%26cb_client%3Dsearch.gws-prod.gps%26w%3D86%26h%3D86%26yaw%3D12.624%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192!4m7!3m6!1s0x8e46833032d79267:0xc7e04aa616e7619e!8m2!3d6.2041515!4d-75.576715!10e5!16s%2Fg%2F11srlkdv7p?hl=es&entry=ttu"
+                            target="_blank">
+                            <p>
+                                Calle 2 Sur # 46 108 Torre Médica Salud Vegas consultorio 1212.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="info">
-          <h2>Ubicación</h2>
-          <p>Dirección de tu empresa<br>Ciudad, País</p>
         </div>
       </div>
     </div>
-    <form class="contact-form">
-      <h2>Envíanos tus datos</h2>
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required>
-      <label for="correo">Correo Electrónico:</label>
-      <input type="email" id="correo" name="correo" required>
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
+    
   </div>
 </div>
+
+
+
+<footer>
+  <div class="footer_container">
+      <div class="derechos_reservados">
+          <p>
+              Todos los derechos reservados GlobalMente Psicólogos
+          </p>
+      </div>
+
+      <div class="social_media_icons">
+          <a href="https://www.instagram.com/globalmentepsicologos/" target="_blank">
+              <img src="../static/img/icons/instagram.png" alt="Logo Instagram">
+          </a>
+          <a href="https://www.facebook.com/psicologos.global.mente/" target="_blank">
+              <img src="../static/img/icons/facebook.png" alt="Logo Facebook">
+          </a>
+      </div>
+  </div>
+</footer>
+
 
 <script src="../js/sticky.js"></script>
 </body>
