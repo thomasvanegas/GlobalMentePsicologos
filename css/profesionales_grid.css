@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    font-size: xx-large;
 }
 
 .profesionales_title {
@@ -29,7 +30,7 @@
 
 .profesionales_fila_1 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     align-items: center;
     width: 90%;
@@ -38,7 +39,7 @@
 
 .profesionales_fila_2 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     align-items: center;
     width: 90%;
@@ -57,6 +58,7 @@
     height: 36vh;
 }
 
+
 .profesionales_img img {
     width: 22vh;
     border-radius: 5%;
@@ -68,11 +70,13 @@
     justify-content: space-between;
     align-items: center;
     height: 30vh;
+    font-size: xx-large;
 }
 
 .profesionales_nombre h3 {
     font-size: small;
     color: #52005d;
+    
 }
 
 .profesionales_informacion ul{
@@ -80,9 +84,11 @@
     flex-direction: column;
     justify-content: baseline;
     height: 12vh;
+    font-size: xx-large;
 }
 
 .profesionales_informacion ul li {
     font-size: small;
     text-align: center;
+    
 }

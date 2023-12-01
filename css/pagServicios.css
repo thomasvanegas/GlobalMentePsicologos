@@ -3,12 +3,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    font-size: medium;
 }
 
 .services-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 15px;
 }
 
 .service {
@@ -22,8 +24,10 @@ body {
 
 h2 {
     color: #333;
+    font-size: xx-large;
 }
 
 p {
     color: black;
+    font-size: medium;
 }
